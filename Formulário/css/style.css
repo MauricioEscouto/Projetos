@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+}
+header {
+    background: #000000;
+    padding: 12px 0; 
+}
+.cabecalho-esquerda {
+    position: relative;
+}
+#logo {
+    height: 30px;
+    width: 30px;
+    padding: 5px 0 0 0;
+}
+.cabecalho-esquerda a{
+    text-decoration: none;
+    margin: 0 0 0 45px;
+}
+.cabecalho-esquerda #link-img {
+    margin: 0 0 0 8px;
+}
+
+#link-h1 {
+    color: #FFFFFF;
+}
+#link-p {
+    color: #9B9DAD;  
+}
+#link-p:hover {
+    color: #FFFFFF;
+}
+.cabecalho-esquerda h1 {
+    padding: 0 0 6px 0;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial;
+    position: absolute; top: 0;
+}
+.cabecalho-esquerda #link-p {
+    font-family: arial;
+    font-size: 14px;
+    position: absolute; top: 25px;
+    
+}
+.cabecalho-esquerda #botao-follow {
+    font-size: 11px;
+    font-family: arial;
+    color: #000000;
+    border: 1px solid #47CF73;
+    display: inline-block;
+    background: #47CF73;
+    border-radius: 2px;
+    padding: 1px 6px;
+    position: absolute; top: 25px; left: 170px; 
+}
+.cabecalho-esquerda #botao-follow:hover {
+    color: #FFFFFF;
+    border: 1px solid #389455;
+    background: #389455;
+}
+
+
