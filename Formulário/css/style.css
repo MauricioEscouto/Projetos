@@ -3,7 +3,7 @@ body {
 }
 header {
     background: #000000;
-    padding: 13.5px 0; 
+    padding: 13.5px 0;
 }
 .cabecalho-esquerda {
     position: relative;
@@ -131,7 +131,7 @@ form {
     border-radius: 4px;
     position: relative;
 }   
-form label {
+form label, legend {
     display: flex;
     font-size: 18px;
     color: #FFFFFF;
@@ -140,9 +140,73 @@ form label {
     width: 100%; 
 }
 form .input-area {
-    width: 94.70%;
+    width: 100%;
     padding: 10px 12px;
     margin-bottom: 20px;
     border: 1px solid #ced4da;
     border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.main-role {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    color: #495057;
+    font-size: 16px;
+}
+.main-recomenda {
+    margin-bottom: 20px;
+}
+.main-recomenda label {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px; 
+    width: 100%;  
+}
+.main-favorite select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    color: #495057;
+    font-size: 16px;
+}
+.main-improved label {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px; 
+    width: 100%; 
+}
+.caixa-mensagem label {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    width: 100%; 
+}
+.caixa-mensagem textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #495057;
+    box-sizing: border-box;
+}
+.botao-enviar {
+    width: 100%;
+    padding: 12px;
+    background: #37af65;
+    border: none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 25px;
 }
