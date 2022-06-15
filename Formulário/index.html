@@ -39,6 +39,70 @@
                 <label for="idade">Age (opcional)</label>
                 <input type="number" id="idade" class="input-area" required placeholder="Age">
 
+                <fieldset>
+                    <legend>Which option best describes your current role?</legend>
+                    <select class="main-role">
+                        <option disabled selected value>Select current role</option>
+                        <option>Student</option>
+                        <option>Full Time Job</option>
+                        <option>Full Time Learner</option>
+                        <option>Prefer not to say</option>
+                        <option>Other</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="main-recomenda">
+                    <legend>Would you recommend freeCodeCamp to a friend?</legend>
+                        <label for="radio-definitely"><input type="radio" name="recomenda" value="definitely" id="radio-definitely" checked>Definitely</label>
+                        
+                        <label for="radio-maybe"><input type="radio" name="recomenda" value="maybe" id="radio-maybe">Maybe</label>
+
+                        <label for="radio-notsure"><input type="radio" name="recomenda" value="notsure" id="radio-notsure">Not sure</label>
+                </fieldset>
+                
+                <fieldset class="main-favorite">
+                    <legend>What is your favorite feature of freeCodeCamp?</legend>
+                    <select>
+                        <option disabled selected value>Select an option</option>
+                        <option>Challenges</option>
+                        <option>Projects</option>
+                        <option>Community</option>
+                        <option>Open Source</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="main-improved">
+                    <legend>What would you like to see improved? (Check all that apply)</legend>
+                        <label for="checkbox-front-end"><input type="checkbox" name="melhorar" value="Front-end Projects" id="checkbox-front-end">Front-end Projects</label>
+                        
+                        <label for="checkbox-back-end"><input type="checkbox" name="melhorar" value="Back-end Projects" id="checkbox-back-end">Back-end Projects</label>
+
+                        <label for="checkbox-data"><input type="checkbox" name="melhorar" value="Data Visualization" id="checkbox-data">Data Visualization</label>
+
+                        <label for="checkbox-challenges"><input type="checkbox" name="melhorar" value="Challengess" id="checkbox-challenges">Challenges</label>
+
+                        <label for="checkbox-source"><input type="checkbox" name="melhorar" value="Open Source Community" id="checkbox-source">Open Source Community</label>
+
+                        <label for="checkbox-gitter"><input type="checkbox" name="melhorar" value="Gitter help rooms" id="checkbox-gitters">Gitter help rooms</label>
+
+                        <label for="checkbox-videos"><input type="checkbox" name="melhorar" value="Videos" id="checkbox-videos">Videos</label>
+
+                        <label for="checkbox-city"><input type="checkbox" name="melhorar" value="City Meetups" id="checkbox-city">City Meetups</label>
+
+                        <label for="checkbox-wiki"><input type="checkbox" name="melhorar" value="Wiki" id="checkbox-wiki">Wiki</label>
+
+                        <label for="checkbox-forum"><input type="checkbox" name="melhorar" value="Forum" id="checkbox-forum">Forum</label>
+
+                        <label for="checkbox-additional"><input type="checkbox" name="melhorar" value="Additional Courses" id="checkbox-additional">Additional Courses</label>
+                </fieldset>
+
+                <div class="caixa-mensagem">
+                    <label for="mensagem">Any comments or suggestions?</label>
+                    <textarea id="mensagem" required placeholder="Enter your comment here..."></textarea>
+                </div>
+
+                <input type="submit" value="Submit" class="botao-enviar">
+
             </form>
         </main>
 
