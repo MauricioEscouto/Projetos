@@ -218,3 +218,46 @@ form .input-area {
     cursor: pointer;
     margin-top: 25px;
 }
+
+
+@media screen and (max-width: 767px) {
+    .cabecalho-esquerda {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .cabecalho-esquerda #link-img {
+        display: none;
+    }
+    .cabecalho ul {
+        position: static; top: 10px; right: 3px;
+        color: white;
+        margin: 20px auto 10px auto;
+        text-align: center;
+    }
+    .cabecalho-esquerda p {
+        display: none;
+    }
+    .cabecalho-esquerda #botao-follow {
+        display: none;
+    }
+    .cabecalho h1 {
+        position: initial;
+        padding: 0;
+    }
+    .cabecalho a {
+        margin: 0 0 0 10px;
+    }
+    .cabecalho li {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho ul {
+        position: absolute; top: 10px; right: 3px;
+        color: white;
+    }
+    
+}
+
