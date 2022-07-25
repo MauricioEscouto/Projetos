@@ -1,0 +1,109 @@
+.conteudoPrincipal-videos {
+    padding: 25px 67.400px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.container .titulo-videos-the-witcher>h2 {
+    display: inline-block
+}
+
+.titulo-videos-the-witcher .video {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 22.500px 0 10px;
+}
+
+.titulo-videos-the-witcher .the-witcher {
+    border-left: 1px solid #a3a3a3;
+    color: #a3a3a3;
+    font-size: 20px;
+    margin: 15px 9px 10px;
+    padding-left: 15px;
+}
+
+
+
+.lista-videos {
+    display: flex;
+    margin: 16px 0;
+    overflow-x: scroll;
+}
+
+.lista-videos::-webkit-scrollbar {
+    width: 16px;
+    border: 5px solid white;
+  
+  }
+  
+.lista-videos::-webkit-scrollbar-thumb {
+    background-color: #b0b0b0;
+    background-clip: padding-box;
+    border: 0.05em solid #eeeeee;
+  }
+  
+.lista-videos::-webkit-scrollbar-track {
+    background-color: #bbbbbb;
+  }
+  /* Buttons */
+/*.lista-videos::-webkit-scrollbar-button:single-button {
+    background-color: #bbbbbb;
+    display: block;
+    height: 13px;
+    width: 16px;
+    background-image: url(../../../img/png-transparent-red-arrow-miscellaneous-angle-text-thumbnail.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(180deg);
+} */
+
+
+
+
+
+.lista-videos li {
+    display: inline-table;
+    flex: 1 0 auto;
+    list-style-type: none;
+    margin: 0 12px 0 0;
+    position: relative;
+}
+
+
+.conteudo-videos-the-witcher {
+    position: relative;
+    width: 100%;
+}
+
+
+.lista-videos .imagem-e-play {
+    position: relative;
+}
+
+.lista-videos .imagem-videos {
+    display: block;
+    height: 350px;
+    position: relative;
+    width: 620px;
+}
+
+.lista-videos .botao-play {
+    bottom: 0;
+    height: 50px;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+}
+
+.lista-videos .titulo-videos {
+    display: block;
+    padding-top: 1em;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #FFFFFF;
+}
+
+
+
+

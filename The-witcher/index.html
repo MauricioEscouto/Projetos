@@ -7,9 +7,9 @@
 	<link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/cabecalho/cabecalho.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/conteudoPrincipal/logo-sobre-imagemPrincipal/style.css">
+    <link rel="stylesheet" href="assets/css/conteudoPrincipal/logo-sobre-imagemPrincipal-caixaAssista/style.css">
     <link rel="stylesheet" href="assets/css/conteudoPrincipal/descricao/descricao.css">
-
+    <link rel="stylesheet" href="assets/css/conteudoPrincipal/videos/style.css">
 
 </head>
         <header class="cabecalhoPrincipal">
@@ -28,7 +28,7 @@
             <section class="conteudoPrincipal-sobre">
                 <div class="container">
                     <div class="logo-e-sobre">
-                        <img src="assets/img/conteudoPrincipal/logo-the-witcher.png" class="logo-theWitcher">
+                        <img src="assets/img/conteudoPrincipal/logo-sobre-imagemPrincipal-caixaAssista/logo-the-witcher.png" class="logo-theWitcher">
                         <h2 class="titulo-principal">The Witcher</h2>
                         <div class="informacoes">
                             <span class="anoCriacao">2019</span>
@@ -53,7 +53,10 @@
                     </div>
                 
                     <div class="imagemPrincipal-personagens">
-                        <img src="assets/img/conteudoPrincipal/imagem-personagens.jpg" class="imagem-personagens">
+                        <div class="imagem-personagens-desktop" style="display:none;background-image:url(assets/img/conteudoPrincipal/logo-sobre-imagemPrincipal-caixaAssista/imagem-personagensDesktop.jpg)">
+                        </div>
+                        <div class="imagem-personagens-mobile" style="display:none;background-image:url(assets/img/conteudoPrincipal/logo-sobre-imagemPrincipal-caixaAssista/imagem-personagensMobile.jpg)">
+                        </div>
                     </div>
                     
                 
@@ -61,7 +64,7 @@
                 </div>
                 <div class="caixa-assista">
                         <div class="logo-e-assista">
-                            <img src="assets/img/conteudoPrincipal/logo-N-netflix.png" class="logo-N">
+                            <img src="assets/img/conteudoPrincipal/logo-sobre-imagemPrincipal-caixaAssista/logo-N-netflix.png" class="logo-N">
                             <p>Assista o quanto quiser.</p>
                         </div>
                         <a href="https://www.netflix.com/br/" class="botao-assine">ASSINE A NETFLIX</a>
@@ -72,6 +75,216 @@
                 <div class="borda-descricao"></div>
                 <p class="descricao-serie">Henry Cavill estrela esta série épica repleta de monstros, magia e destino, baseada nos livros de Andrzej Sapkowski.</p>
                 <div class="borda-descricao"></div>
+            </section>
+
+            <section class="conteudoPrincipal-videos">
+                <div class="container">
+                    <div class="titulo-videos-the-witcher">
+                        <h2 class="video">Vídeos</h2>
+                        <h2 class="the-witcher">The Witcher</h2>
+                    </div>
+
+                    <div class="conteudo-videos-the-witcher">
+                        <ul class="lista-videos">
+                            <li>
+                                <div class="imagem-e-play">
+                                    <img src="assets/img/conteudoPrincipal/videos/imagem-trailer-segundaTemporada.jpg" class="imagem-videos">
+                                    <svg viewBox="0 0 50 50" class="botao-play">
+                                        <g fill="none" fill-rule="nonzero">
+                                            <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                            <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                            </g>
+                                    </svg>
+                                </div>
+                                <span class="titulo-videos">Temporada 2 (Trailer): The Witcher</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                <img src="assets/img/conteudoPrincipal/videos/imagem-trailer-primeiraTemporada.jpg" class="imagem-videos">
+                                <svg viewBox="0 0 50 50" class="botao-play">
+                                    <g fill="none" fill-rule="nonzero">
+                                        <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                        <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                        </g>
+                                </svg>
+                            </div>
+                            <span class="titulo-videos">Temporada 1 (Trailer): The Witcher</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                    <img src="assets/img/conteudoPrincipal/videos/imagem-teaser-segundaTemporada.jpg" class="imagem-videos">
+                                    <svg viewBox="0 0 50 50" class="botao-play">
+                                        <g fill="none" fill-rule="nonzero">
+                                            <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                            <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                            </g>
+                                    </svg>
+                                </div>
+                                <span class="titulo-videos">Temporada 2 (Teaser): The Witcher</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                    <img src="assets/img/conteudoPrincipal/videos/imagem-guia-primeiraTemporada.jpg" class="imagem-videos">
+                                    <svg viewBox="0 0 50 50" class="botao-play">
+                                        <g fill="none" fill-rule="nonzero">
+                                            <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                            <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                            </g>
+                                    </svg>
+                                </div>
+                                <span class="titulo-videos">The Witcher - Temporada 1: Guia para iniciantes</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                    <img src="assets/img/conteudoPrincipal/videos/imagem-teaser3-segundaTemporada.jpg" class="imagem-videos">
+                                    <svg viewBox="0 0 50 50" class="botao-play">
+                                        <g fill="none" fill-rule="nonzero">
+                                            <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                            <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                            </g>
+                                    </svg>
+                                </div>
+                                <span class="titulo-videos">Temporada 2 (Teaser 3): The Witcher</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                    <img src="assets/img/conteudoPrincipal/videos/imagem-resumo-primeiraTemporada.jpg" class="imagem-videos">
+                                    <svg viewBox="0 0 50 50" class="botao-play">
+                                        <g fill="none" fill-rule="nonzero">
+                                            <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                            <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                            </g>
+                                    </svg>
+                                </div>
+                                <span class="titulo-videos">Temporada 1 (Resumo): The Witcher</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                <img src="assets/img/conteudoPrincipal/videos/imagem-trailer2-segundaTemporada.jpg" class="imagem-videos">
+                                <svg viewBox="0 0 50 50" class="botao-play">
+                                    <g fill="none" fill-rule="nonzero">
+                                        <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                        <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                        </g>
+                                </svg>
+                            </div>
+                            <span class="titulo-videos">Temporada 2 (Trailer 2): The Witcher</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                    <img src="assets/img/conteudoPrincipal/videos/imagem-teaser-primeiraTemporada.jpg" class="imagem-videos">
+                                    <svg viewBox="0 0 50 50" class="botao-play">
+                                        <g fill="none" fill-rule="nonzero">
+                                            <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                            <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                            </g>
+                                    </svg>
+                                </div>
+                                <span class="titulo-videos">Temporada 1 (Teaser): The Witcher</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                    <img src="assets/img/conteudoPrincipal/videos/imagem-universo-theWitcher.jpg" class="imagem-videos">
+                                    <svg viewBox="0 0 50 50" class="botao-play">
+                                        <g fill="none" fill-rule="nonzero">
+                                            <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                            <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                            </g>
+                                    </svg>
+                                </div>
+                                <span class="titulo-videos">O universo The Witcher</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                    <img src="assets/img/conteudoPrincipal/videos/imagem-apresentacao-cirilla.jpg" class="imagem-videos">
+                                    <svg viewBox="0 0 50 50" class="botao-play">
+                                        <g fill="none" fill-rule="nonzero">
+                                            <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                            <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                            </g>
+                                    </svg>
+                                </div>
+                                <span class="titulo-videos">Apresentação da personagem: princesa Cirilla</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                    <img src="assets/img/conteudoPrincipal/videos/imagem-apresentacao-yennefer.jpg" class="imagem-videos">
+                                    <svg viewBox="0 0 50 50" class="botao-play">
+                                        <g fill="none" fill-rule="nonzero">
+                                            <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                            <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                            </g>
+                                    </svg>
+                                </div>
+                                <span class="titulo-videos">Apresentação da personagem: Yennefer de Vengerberg</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                    <img src="assets/img/conteudoPrincipal/videos/imagem-trailer2-primeiraTemporada.jpg" class="imagem-videos">
+                                    <svg viewBox="0 0 50 50" class="botao-play">
+                                        <g fill="none" fill-rule="nonzero">
+                                            <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                            <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                            </g>
+                                    </svg>
+                                </div>
+                                <span class="titulo-videos">Temporada 1 (Trailer 2): The Witcher</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                    <img src="assets/img/conteudoPrincipal/videos/imagem-apresentacao-geralt.jpg" class="imagem-videos">
+                                    <svg viewBox="0 0 50 50" class="botao-play">
+                                        <g fill="none" fill-rule="nonzero">
+                                            <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                            <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                            </g>
+                                    </svg>
+                                </div>
+                                <span class="titulo-videos">Apresentação do personagem: Geralt de Rívia</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                    <img src="assets/img/conteudoPrincipal/videos/imagem-escrevendo-theWitcher.jpg" class="imagem-videos">
+                                    <svg viewBox="0 0 50 50" class="botao-play">
+                                        <g fill="none" fill-rule="nonzero">
+                                            <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                            <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                            </g>
+                                    </svg>
+                                </div>
+                                <span class="titulo-videos">Escrevendo The Witcher</span>
+                            </li>
+
+                            <li>
+                                <div class="imagem-e-play">
+                                    <img src="assets/img/conteudoPrincipal/videos/imagem-teaser2-segundaTemporada.jpg" class="imagem-videos">
+                                    <svg viewBox="0 0 50 50" class="botao-play">
+                                        <g fill="none" fill-rule="nonzero">
+                                            <path fill="#fff" d="M25 50C11.2 50 0 38.8 0 25S11.2 0 25 0s25 11.2 25 25-11.2 25-25 25z" class="base"></path>
+                                            <path fill="#000" d="M35.3 25l-15.6-8.6v17.2z" class="triangulo"></path>
+                                            </g>
+                                    </svg>
+                                </div>
+                                <span class="titulo-videos">Temporada 2 (Teaser 2): The Witcher</span>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                
             </section>
             
             <p>teste</p>
