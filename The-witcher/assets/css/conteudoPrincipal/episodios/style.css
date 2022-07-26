@@ -1,0 +1,96 @@
+.conteudoPrincipal-episodios {
+    padding: 25px 67.400px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0 100px;
+    padding: 25px 100px;
+}
+
+.container .titulo-episodios-the-witcher>h2 {
+    display: inline-block;
+}
+
+.titulo-episodios-the-witcher .episodio {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 22.500px 0 10px;
+}
+
+.titulo-episodios-the-witcher .the-witcher {
+    border-left: 1px solid #a3a3a3;
+    color: #a3a3a3;
+    font-size: 20px;
+    margin: 15px 9px 10px;
+    padding-left: 15px;
+}
+
+.temporadas select {
+    background: #181818;
+    border: none;
+    padding: 7px 0;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.container .descricao-e-episodios {
+    margin-top: 20px;
+}
+
+.descricao-e-episodios .ano-e-descricao h2 {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.descricao-e-episodios .ano-e-descricao p {
+    color: #a3a3a3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 5px 0 20px;
+    width: 50%;
+}
+
+.episodios .lista-episodios {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.episodios .lista-episodios li {
+    margin: 6px;
+    width: calc(20% - 12px);
+}
+
+.imagem-titulo-descricao .imagem-episodio {
+    width: 100%;
+}
+
+.imagem-titulo-descricao .titulo-e-duracao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem-titulo-descricao .titulo-e-duracao .titulo-episodio {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.imagem-titulo-descricao .titulo-e-duracao .duracao-episodio {
+    color: #a3a3a3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 10%;
+}
+
+.imagem-titulo-descricao .descricao-episodio {
+    color: #a3a3a3;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 12px 0;
+}
+
