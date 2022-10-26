@@ -1,0 +1,268 @@
+body {
+    width: 100%;
+}
+iframe {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+header {
+    background: #000000;
+    padding: 13.5px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.cabecalho {
+    position: relative;
+}
+#logo {
+    height: 30px;
+    width: 30px;
+    padding: 5px 0 0 0;
+}
+.cabecalho a{
+    text-decoration: none;
+    margin: 0 0 0 45px;
+}
+.cabecalho #link-img {
+    margin: 0 0 0 8px;
+}
+
+#link-h1 {
+    color: #FFFFFF;
+}
+#link-p {
+    color: #9B9DAD;  
+}
+#link-p:hover {
+    color: #FFFFFF;
+}
+.cabecalho h1 {
+    padding: 0 0 6px 0;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    position: absolute; top: 0;
+    letter-spacing: 0.4px;
+}
+.cabecalho #link-p {
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    font-size: 13.5px;
+    position: absolute; top: 25px;
+    letter-spacing: -0.5px;
+}
+.cabecalho #botao-follow {
+    font-size: 10.5px;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    color: #000000;
+    border: 1px solid #47CF73;
+    display: inline-block;
+    background: #47CF73;
+    border-radius: 2px;
+    padding: 1.5px 4px;
+    position: absolute; top: 22px; left: 167px;
+}
+.cabecalho #botao-follow:hover {
+    color: #FFFFFF;
+    border: 1px solid #389455;
+    background: #389455;
+}
+.cabecalho ul {
+    position: absolute; top: 10px; right: 3px;
+    color: white;
+}
+.cabecalho li {
+    display: inline;
+    margin: 1px 6px 1px 0;
+    border: 1px solid #444857;
+    border-radius: 5px;
+    background: #444857;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    font-size: 14px;
+    padding: 10px 15.4px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #FFFFFF;
+}
+#cabecalho-coracao {
+    font-size: 15px;
+    padding: 8.5px 19px 9.5px 19px;  
+}
+#cabecalho-sign {
+    background: #47CF73;
+    border: 1px solid #47CF73;
+    color: #000000;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000000;
+}
+.cabecalho li:hover {
+    background: #5c6072;
+    border: 1px solid #5c6072;
+    cursor: pointer;
+}
+#cabecalho-sign:hover {
+    background: #389455;
+    border: 1px solid #389455;
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #FFFFFF;
+    cursor: pointer;
+}
+main {
+    background-image: linear-gradient(115deg,rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7)
+    ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.frase-topo {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    padding-top: 120px;
+}
+.frase-topo h2 {
+    font-size: 32px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #FFFFFF;
+    
+}
+.frase-topo p {
+    font-size: 18px;
+    font-style: italic;
+    padding-top: 15px;
+    margin-bottom: 1.875rem;
+}
+form {
+    max-width: 640px;
+    display: block;
+    background-color: rgba(27, 27, 50, 0.8);
+    margin: 0 auto 0 auto;
+    padding: 40px;
+    border-radius: 4px;
+    position: relative;
+}   
+form label, legend {
+    display: flex;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px; 
+    width: 100%;
+    margin-top: 10px; 
+}
+form .input-area {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.main-role {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    color: #495057;
+    font-size: 16px;
+}
+.main-recomenda {
+    margin-bottom: 20px;
+}
+.main-recomenda label {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px; 
+    width: 100%;  
+}
+.main-favorite select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    color: #495057;
+    font-size: 16px;
+}
+.main-improved label {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px; 
+    width: 100%; 
+}
+.caixa-mensagem label {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    width: 100%; 
+}
+.caixa-mensagem textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #495057;
+    box-sizing: border-box;
+}
+.botao-enviar {
+    width: 100%;
+    padding: 12px;
+    background: #37af65;
+    border: none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .cabecalho-esquerda {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .cabecalho-esquerda #link-img {
+        display: none;
+    }
+    .cabecalho ul {
+        position: static; top: 10px; right: 3px;
+        color: white;
+        margin: 20px auto 10px auto;
+        text-align: center;
+    }
+    .cabecalho-esquerda p {
+        display: none;
+    }
+    .cabecalho-esquerda #botao-follow {
+        display: none;
+    }
+    .cabecalho h1 {
+        position: initial;
+        padding: 0;
+    }
+    .cabecalho a {
+        margin: 0 0 0 10px;
+    }
+    .cabecalho li {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho ul {
+        position: absolute; top: 10px; right: 3px;
+        color: white;
+    }
+    
+}
+
