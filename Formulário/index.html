@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    
 
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário</title>
     <link rel="stylesheet" href="Content/css/reset.css">
     <link rel="stylesheet" href="Content/css/style.css">
+
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('.cabecalho').load("cabecalho.html");
+
+        });
+    </script>
+
 </head>
   
 <body>
-    <iframe src="Views/Cabecalho/cabecalho.html"></iframe>
+
+    <header class="teste">
+        <div class="teste2"></div>
+    </header>
 
     <main>
+
         <div class="frase-topo">
             <h2>freeCodeCamp Survey Form</h2>
             <p>Thank you for taking the time to help us improve the platform</p>
@@ -94,7 +108,11 @@
             <input type="submit" value="Submit" class="botao-enviar">
 
         </form>
+
+      
     </main>
+
+    
 </body>
 
 </html>

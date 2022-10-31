@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Script"
+    "\\Script",
+    "\\Views",
+    "\\Views\\Cabecalho"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\Views\\Cabecalho\\cabecalho.html",
   "PreviewInSolutionExplorer": false
 }
