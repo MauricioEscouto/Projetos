@@ -1,0 +1,48 @@
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.containerCabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+    align-items: center;
+    background: var(--cor-cabecalho);
+}
+
+.divCabecalho-esquerda, .divCabecalho-direita {
+    display: flex;
+    align-items: center;
+}
+
+.logo-Cabecalho {
+    width: 4rem;
+}
+
+.titulo-Cabecalho {
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 0 1rem;
+    margin-top: -4px;
+}
+
+.cabecalho-btn {
+    margin-left: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--cor-fonte-cabecalho);
+}
+
+.cabecalho-btn.login{
+    background: var(--cor-botao-principal);
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    font-weight: 500;
+    color: var(--cor-fonte-cabecalho-secundario);
+}

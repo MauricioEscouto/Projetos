@@ -1,0 +1,140 @@
+body{
+    background-image: linear-gradient(to bottom left, var(--cor-background-terceario), var(--cor-background-secundario));
+}
+
+#sessaoLogin {
+    height: 100%;
+}
+
+.containerPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.divPrincipal {
+    height: 35rem;
+    background: var(--cor-background-principal);
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    box-shadow: rgb(0 0 0 / 20%) -0.5px 2px 2px 0px;
+}
+
+.divPrincipal-imagem {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10rem;
+}
+
+.divPrincipal-imagem img {
+    width: 70%;
+}
+
+.divPrincipal-Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.principal-Logar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal-BtnEmailSenha {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.btn-Principal {
+    border: none;
+    height: 2.7rem;
+    border-radius: 1.5rem;
+    padding: 0 1.5rem;
+    background: var(--cor-botao-secundario);
+    margin: 0.3rem 0;
+    color: var(--cor-fonte-principal);
+    width: 65%;
+    box-sizing: inherit;
+}
+
+.btn-Principal:focus, .btn-Principal:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.principal-BtnLogin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-fonte-principal);
+}
+
+.principal-BtnLogin .login{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1.5rem 0 1rem 0;
+    background: var(--cor-botao-terceario);
+    color: var(--cor-fonte-secundario);
+    cursor: pointer;
+}
+
+.principal-BtnLogin span {
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.principal-CriarConta {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--cor-fonte-principal);
+}
+
+.principal-CriarConta img {
+    width: 1rem;
+    padding: 0 0.5rem;
+}
+
+@media screen and (max-height: 768px){
+    main {
+        margin-top: 95px;
+    }
+    .containerPrincipal {
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (min-height: 769px){
+    body {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .divPrincipal-imagem img {
+        width: 245px;
+    }
+    .divPrincipal {
+        width: 843px;
+    }
+}
